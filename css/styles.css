@@ -1,3 +1,16 @@
+:root {
+    --background-primary-color: #FFFFFF;
+    --background-secondary-color: #F5F5F5;
+    --background-tertiary-color: #000000;
+    
+    --button-primary-color: #8F0101;
+    --button-secondary-color: #B81515;
+    --button-text-color: #ffffff;
+
+    --text-primary-color: #222222;
+    --text-secondary-color: #ffffff;
+}
+
 /* CSS RESET */
 
 body, img, h1, p, legend, input, button, select, option, textarea {
@@ -6,5 +19,4 @@ body, img, h1, p, legend, input, button, select, option, textarea {
     border: 0;
     box-sizing: border-box;
 }
-
 
