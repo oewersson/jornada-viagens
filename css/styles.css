@@ -35,3 +35,26 @@ textarea {
   border: 0;
   box-sizing: border-box;
 }
+
+header {
+  background-color: var(--background-tertiary-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 37px 48px;
+}
+
+.logo {
+  display: inline-block;
+  width: 68px;
+  height: 64px;
+}
+
+.navigation-menu {
+  margin-top: 24px;
+}
+
+nav {
+  display: none;
+}
