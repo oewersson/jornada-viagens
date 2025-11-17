@@ -1,4 +1,6 @@
 @import url("header.css");
+@import url("global.css");
+@import url("hero.css");
 
 @font-face {
   font-family: "Montserrat";
