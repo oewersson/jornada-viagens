@@ -6,12 +6,29 @@
   background-position: center;
 }
 
+.hero h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 1.5;
+  text-align: center;
+  padding: 88px 24px;
+  color: var(--text-primary-color);
+}
+
 @media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;
     background: url("../img/hero-tablet.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    padding: 88px 60px;
   }
 }
 
@@ -20,5 +37,15 @@
     background: url("../img/hero-desktop.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+  }
+
+  .hero h2 {
+    padding: 88px 120px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero h2 {
+    padding: 88px 160px;
   }
 }
