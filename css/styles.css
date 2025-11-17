@@ -1,3 +1,5 @@
+@import url("header.css");
+
 @font-face {
   font-family: "Montserrat";
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
@@ -38,78 +40,4 @@ textarea {
 
 body {
   font-family: "Montserrat", sans-serif;
-}
-
-header {
-  background-color: var(--background-tertiary-color);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 37px 48px;
-  position: relative;
-}
-
-.logo {
-  display: inline-block;
-  width: 68px;
-  height: 64px;
-}
-
-.navigation-menu {
-  margin-top: 24px;
-}
-
-input[type="checkbox"]:checked ~ nav {
-  display: block;
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  background-color: var(--background-tertiary-color);
-}
-
-nav {
-  display: none;
-}
-
-.list-links {
-  list-style: none;
-}
-
-.list-links li {
-  margin: 16px 0;
-}
-
-.list-links li a {
-  color: var(--text-secondary-color);
-  text-decoration: none;
-  font-weight: var(--menu-text-weight);
-  font-size: 24px;
-}
-
-@media screen and (min-width: 768px) {
-  .navigation-menu {
-    margin-top: 0;
-    width: 476px;
-  }
-
-  .navigation-menu label {
-    display: none;
-  }
-
-  .navigation-menu nav {
-    display: block;
-  }
-
-  .navigation-menu ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0;
-  }
-
-  .navigation-menu li {
-    margin: 0;
-  }
 }
