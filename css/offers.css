@@ -1,0 +1,55 @@
+header {
+  padding: 0;
+}
+.card {
+  color: var(--text-secondary-color);
+  width: 312px;
+  height: 288px;
+  box-sizing: border-box;
+  padding: 24px 16px;
+  background-color: black;
+  border-radius: 16px;
+  text-align: center;
+}
+
+.card header {
+  display: block;
+  background-image: url();
+  position: static;
+}
+
+.card header p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
+.card header h3 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin: 8px 0 0;
+}
+
+.card header span {
+  margin-top: 24px;
+  font-size: 32px;
+  display: inline-block;
+}
+
+.card footer {
+  display: flex;
+  margin-top: 24px;
+  width: 280px;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color);
+  border-radius: 8px;
+}
+
+.card footer a {
+  font-size: 20px;
+  font-weight: var(--title-weight);
+  color: var(--text-secondary-color);
+  text-decoration: none;
+}
