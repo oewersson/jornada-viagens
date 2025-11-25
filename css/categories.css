@@ -3,6 +3,11 @@
   background-color: var(--background-primary-color);
 }
 
+.categories .section-title {
+  width: 312px;
+  margin: 0 auto;
+}
+
 .categories-cards {
   display: flex;
   flex-direction: column;
