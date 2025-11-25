@@ -41,6 +41,21 @@ body {
   color: var(--text-primary-color);
 }
 
+/* section {
+  width: 312px;
+  margin: 0 auto;
+} */
+
+section.hero {
+  width: 100%;
+  margin: 0;
+}
+
+.section-title {
+  width: 280px;
+  margin: 0 auto;
+}
+
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
@@ -61,6 +76,8 @@ body {
   width: 280px;
   height: 64px;
   line-height: 54px;
+  text-align: center;
+  align-content: center;
   font-size: 20px;
   font-weight: var(--title-weight);
   color: var(--text-secondary-color);
@@ -70,13 +87,32 @@ body {
 }
 
 @media screen and (min-width: 768px) {
+  /* section {
+    width: 648px;
+  } */
+
   .section-title h2 {
     font-size: 32px;
+  }
+
+  .section-title {
+    width: 100%;
+    margin: 0 auto;
   }
 }
 
 @media screen and (min-width: 1024px) {
+  /* section {
+    width: 648px;
+  } */
+
   .button:hover {
     background-color: var(--primary-color);
   }
+}
+
+@media screen and (min-width: 1440px) {
+  /* section {
+    width: 1200px;
+  } */
 }

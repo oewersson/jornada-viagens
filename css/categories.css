@@ -13,7 +13,7 @@
   flex-direction: column;
   align-items: center;
   gap: 24px;
-  margin-top: 32px;
+  margin-bottom: 80px;
 }
 
 .categories-cards a.card {
@@ -67,5 +67,9 @@
   .categories-cards a.card {
     width: 280px;
     gap: 10px;
+  }
+
+  .categories {
+    margin-top: 104px;
   }
 }
