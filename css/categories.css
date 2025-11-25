@@ -58,4 +58,8 @@
     width: 280px;
     gap: 10px;
   }
+
+  .categories {
+    margin-top: 104px;
+  }
 }
