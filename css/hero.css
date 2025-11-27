@@ -1,50 +1,89 @@
-.hero-img {
-  width: 100%;
+.hero .hero-img,
+.bottom-hero .hero-img {
   height: 400px;
+  width: 100%;
+}
+
+.hero-img {
   background: url("../img/hero-mobile.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
 
+/* .bottom-hero .hero-img {
+  background: url(../img/bg-bottom-hero-mobile.png) no-repeat;
+  background-size: cover;
+} */
+
 .hero h2 {
-  margin: 0;
-  font-size: 20px;
+  padding: 88px 24px;
+  margin: 0px;
   font-weight: var(--text-weight);
+  font-size: 20px;
   line-height: 1.5;
   text-align: center;
-  padding: 88px 24px;
-  color: var(--text-primary-color);
 }
 
+/* PACOTES DE VIAGENS */
+/* .travel-packages.hero {
+  margin-bottom: 88px;
+} */
+
 @media screen and (min-width: 768px) {
-  .hero-img {
+  .hero .hero-img {
     height: 620px;
     background: url("../img/hero-tablet.jpg") no-repeat;
     background-size: cover;
     background-position: center;
   }
 
+  /* .bottom-hero .hero-img {
+    height: 400px;
+    background: url(../img/bg-bottom-hero-tablet.png) no-repeat;
+    background-size: cover;
+  } */
+
   .hero h2 {
     font-size: 32px;
-    line-height: 150%;
-    text-align: center;
     padding: 88px 60px;
   }
+
+  /* PACOTES DE VIAGENS */
+  /* .travel-packages .hero-content {
+    padding: 210px 70px 107px;
+  } */
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
+  .hero .hero-img {
     background: url("../img/hero-desktop.jpg") no-repeat;
     background-size: cover;
-    background-position: center;
   }
+
+  /* .bottom-hero .hero-img {
+    height: 600px;
+    background: url(../img/bg-bottom-hero-desktop.png) no-repeat;
+    background-size: cover;
+  } */
 
   .hero h2 {
     padding: 88px 120px;
   }
+
+  /* PACOTES DE VIAGENS */
+  /* .travel-packages .hero-content {
+    padding: 150px 120px 170px;
+    margin: 0 auto;
+  } */
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1440px) {
+  /* .travel-packages .hero-content {
+    width: 1200px;
+  } */
+}
+
+@media screen and (min-width: 1920px) {
   .hero h2 {
     padding: 88px 160px;
   }
