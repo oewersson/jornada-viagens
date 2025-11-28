@@ -77,7 +77,7 @@ section.bottom-hero {
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
-  margin: 0 0 24px;
+  margin: 24px 0 24px;
 }
 
 .content-text {
