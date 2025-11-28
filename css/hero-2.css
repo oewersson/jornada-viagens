@@ -1,0 +1,31 @@
+.hero-2 .hero-img-2,
+.bottom-hero-2 .hero-img-2 {
+  height: 400px;
+  width: 100%;
+}
+
+.hero-img-2 {
+  background: url("../img/hero-2-mobile.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-img-2 {
+    background: url("../img/hero-2-tablet.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-img-2 {
+    background: url("../img/hero-2-desktop.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-2 .hero-img-2 {
+    height: 620px;
+  }
+}
