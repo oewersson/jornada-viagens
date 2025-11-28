@@ -1,10 +1,10 @@
-header {
+.main-header {
   background-color: var(--background-tertiary-color);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 37px 48px;
+  padding: 38px 48px;
   position: relative;
 }
 
@@ -54,17 +54,14 @@ nav {
   font-size: 24px;
 }
 
-@media screen and (min-width: 768px) {
-  .img-mobile {
-    display: block;
-  }
-  .img-desktop {
-    display: none;
-  }
+.list-links li a.active {
+  text-decoration: underline;
+}
 
+@media screen and (min-width: 768px) {
   .navigation-menu {
     margin-top: 0;
-    width: 476px;
+    width: 467px;
   }
 
   .navigation-menu label {
@@ -88,8 +85,8 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
-    padding: 37px 120px;
+  .main-header {
+    padding: 38px 120px;
   }
 
   .logo {
@@ -111,7 +108,7 @@ nav {
 }
 
 @media screen and (min-width: 1920px) {
-  header {
-    padding: 37px 160px;
+  .main-header {
+    padding: 38px 160px;
   }
 }

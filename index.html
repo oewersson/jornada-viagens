@@ -3,12 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Jornada Viagens,uma agência apaixonada por criar viagens inesquecíveis"
+    />
+
+    <meta name="og:title" content="Jornada Viagens" />
+    <meta
+      name="og:description"
+      content="Jornada Viagens,uma agência apaixonada por criar viagens inesquecíveis"
+    />
+    <meta
+      name="og:image"
+      content="https://danicastilho.github.io/jornada-viagens/img/logo-footer.png"
+    />
+    <meta name="og:type" content="website" />
+    <meta name="og:url" content="https://oewersson.github.io/jornada-viagens" />
+
+    <link rel="icon" href="favico.svg" type="xml/svg" />
     <link rel="stylesheet" href="./css/styles.css" />
+
     <title>Jornada Viagens</title>
   </head>
 
   <body>
-    <header>
+    <header class="main-header">
       <a class="logo" href="index.html" title="voltar para a página inicial">
         <img
           class="img-mobile"
@@ -31,7 +50,7 @@
             </li>
             <li>
               <a
-                href="pacotes.html"
+                href="pacotes-de-viagens.html"
                 target="_blank"
                 title="Acessar pacotes de viagem"
                 >Pacotes de viagem</a
@@ -58,64 +77,56 @@
       <div class="section-title">
         <h2>Ofertas da Semana</h2>
         <hr />
-        <div class="offers-cards">
-          <article class="card japao">
-            <header>
-              <section><p>HOTEL+AÉREO</p></section>
-              <section>
-                <h3>
-                  Japão <br />
-                  <span>R$ 4000</span>
-                </h3>
-              </section>
-            </header>
-            <footer>
-              <a href="#" class="button">Ver detalhes</a>
-            </footer>
-          </article>
-          <article class="card san-andreas">
-            <header>
-              <section><p>HOTEL+AÉREO</p></section>
-              <section>
-                <h3>
-                  San Andreas <br />
-                  <span>R$ 3000</span>
-                </h3>
-              </section>
-            </header>
-            <footer>
-              <a href="#" class="button">Ver detalhes</a>
-            </footer>
-          </article>
-          <article class="card paraiba">
-            <header>
-              <section><p>HOTEL+AÉREO</p></section>
-              <section>
-                <h3>
-                  Paraíba <br />
-                  <span>R$ 1200</span>
-                </h3>
-              </section>
-            </header>
-            <footer>
-              <a href="#" class="button">Ver detalhes</a>
-            </footer>
-          </article>
-          <article class="card manaus">
-            <header>
-              <section><p>HOTEL+AÉREO</p></section>
-              <section>
-                <h3>
-                  Manaus <br />
-                  <span>R$ 1600</span>
-                </h3>
-              </section>
-            </header>
-            <footer>
-              <a href="#" class="button">Ver detalhes</a>
-            </footer>
-          </article>
-        </div>
+      </div>
+      <div class="offers-cards">
+        <article class="card japao">
+          <header>
+            <p>HOTEL+AÉREO</p>
+            <h3>
+              Japão <br />
+              <span>R$ 4000</span>
+            </h3>
+          </header>
+          <footer>
+            <a href="#" class="button">Ver detalhes</a>
+          </footer>
+        </article>
+        <article class="card san-andreas">
+          <header>
+            <p>HOTEL+AÉREO</p>
+            <h3>
+              San Andreas <br />
+              <span>R$ 3000</span>
+            </h3>
+          </header>
+          <footer>
+            <a href="#" class="button">Ver detalhes</a>
+          </footer>
+        </article>
+        <article class="card paraiba">
+          <header>
+            <p>HOTEL+AÉREO</p>
+            <h3>
+              Paraíba <br />
+              <span>R$ 1200</span>
+            </h3>
+          </header>
+          <footer>
+            <a href="#" class="button">Ver detalhes</a>
+          </footer>
+        </article>
+        <article class="card manaus">
+          <header>
+            <p>HOTEL+AÉREO</p>
+            <h3>
+              Manaus <br />
+              <span>R$ 1600</span>
+            </h3>
+          </header>
+          <footer>
+            <a href="#" class="button">Ver detalhes</a>
+          </footer>
+        </article>
       </div>
     </section>
     <section class="categories">
@@ -144,11 +155,11 @@
           class="card"
           href="#"
           target="_blank"
-          title="Busque pela categoria Pacotes Nacionais"
+          title="Busque pela categoria Pacotes Internacionais"
         >
           <img
-            src="./img/icone-pacotes-internacionais.png"
-            alt="Icone cinza de Avião"
+            src="./img/icone-aviao.png"
+            alt="Icone cinza representando um Avião"
           />
           <h3 class="content-title">
             Pacotes <br />
@@ -160,9 +171,12 @@
           class="card single-line transfer"
           href="#"
           target="_blank"
-          title="Busque pela categoria Pacotes Nacionais"
+          title="Busque pela categoria Transfer"
         >
-          <img src="./img/icone-transfer.png" alt="Icone cinza de Van" />
+          <img
+            src="./img/icone-onibus.png"
+            alt="Icone cinza representando um Ônibus"
+          />
           <h3 class="content-title">Transfer</h3>
         </a>
 
@@ -170,11 +184,11 @@
           class="card single-line"
           href="#"
           target="_blank"
-          title="Busque pela categoria Pacotes Nacionais"
+          title="Busque pela categoria Seguro Viagem"
         >
           <img
-            src="./img/icone-seguro-viagem.png"
-            alt="Icone cinza de Cadeado simbolizando segurança"
+            src="./img/icone-planeta.png"
+            alt="ícone cinza representando o planeta terra com um cadeado"
           />
           <h3 class="content-title">Seguro Viagem</h3>
         </a>
@@ -186,12 +200,12 @@
         <hr />
       </div>
       <div class="destination-items">
-        <article class="item">
+        <article class="item tokyo">
           <header>
-            <div class="img-item tokyo"></div>
-            <h4>Tokyo</h4>
+            <div class="img-item"></div>
+            <h3 class="content-title">Tokyo</h3>
           </header>
-          <p>
+          <p class="content-text">
             Tóquio é uma cidade vibrante e cosmopolita, com seus templos
             históricos, museus de arte moderna e arranha-céus icônicos. Não
             perca a chance de mergulhar em sua atmosfera fascinante.
@@ -206,12 +220,12 @@
             >
           </footer>
         </article>
-        <article class="item">
+        <article class="item osaka">
           <header>
-            <div class="img-item osaka"></div>
-            <h4>Osaka</h4>
+            <div class="img-item"></div>
+            <h3 class="content-title">Osaka</h3>
           </header>
-          <p>
+          <p class="content-text">
             Osaka é uma cidade agitada e moderna no Japãos. A cidade é famosa
             por sua gastronomia deliciosa e por ser um excelente ponto de
             partida para explorar outras cidades japonesas próximas.
@@ -233,16 +247,18 @@
         <h2>Condições de Pagamento</h2>
         <hr />
       </div>
-      <div class="text-content">
-        <h3>Parcelamento em até 12x!</h3>
-        <p>
-          Viaje pagando em até 12 parcelas no cartão, à vista no crédito com 5%
-          de desconto ou no Pix com 10% de desconto!
-        </p>
-        <div class="image-content">
-          <div class="image bag"></div>
-          <div class="image passport"></div>
-          <div class="image people"></div>
+      <div class="content-container">
+        <div class="text-content">
+          <h3 class="content-title">Parcelamento em até 12x!</h3>
+          <p class="content-text">
+            Viaje pagando em até 12 parcelas no cartão, à vista no crédito com
+            5% de desconto ou no Pix com 10% de desconto!
+          </p>
+        </div>
+        <div class="image-gallery">
+          <div class="image first"></div>
+          <div class="image second"></div>
+          <div class="image thirdy colpsan-2"></div>
         </div>
       </div>
     </section>
