@@ -54,6 +54,12 @@ section.bottom-hero {
   margin: 0;
 }
 
+section.hero-2,
+section.bottom-hero-2 {
+  width: 100%;
+  margin: 0;
+}
+
 .section-title {
   width: 280px;
   margin: 0 auto 32px;
