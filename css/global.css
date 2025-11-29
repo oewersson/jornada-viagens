@@ -22,24 +22,24 @@
 }
 
 /* CSS RESET */
-
 body,
 img,
 h1,
 p,
+fieldset,
 legend,
+label,
 input,
-button,
 select,
-option,
-textarea {
+textarea,
+button {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
   color: var(--text-primary-color);
 }
 
@@ -53,25 +53,16 @@ section.bottom-hero {
   width: 100%;
   margin: 0;
 }
-
-section.hero-2,
-section.bottom-hero-2 {
-  width: 100%;
-  margin: 0;
-}
-
 .section-title {
   width: 280px;
   margin: 0 auto 32px;
 }
-
 .section-title h2 {
   font-size: 28px;
   font-weight: var(--title-weight);
   margin: 0;
   text-align: center;
 }
-
 .section-title hr {
   width: 180px;
   height: 4px;
@@ -83,9 +74,8 @@ section.bottom-hero-2 {
 .content-title {
   font-size: 28px;
   font-weight: var(--title-weight);
-  margin: 24px 0 24px;
+  margin: 0 0 24px;
 }
-
 .content-text {
   font-size: 20px;
   font-weight: var(--text-weight);
@@ -110,21 +100,18 @@ section.bottom-hero-2 {
   section {
     width: 648px;
   }
-
   .section-title {
     width: 100%;
   }
-}
-
-.section-title h2 {
-  font-size: 32px;
+  .section-title h2 {
+    font-size: 32px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   section {
     width: 900px;
   }
-
   .button:hover {
     background-color: var(--primary-color);
   }
