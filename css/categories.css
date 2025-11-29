@@ -21,7 +21,6 @@
 .categories-cards .card.single-line {
   padding-top: 50px;
 }
-
 .categories-cards .card.single-line.transfer img {
   margin: 10px 0 20px;
 }
@@ -30,7 +29,6 @@
   .categories .section-title {
     width: 100%;
   }
-
   .categories-cards {
     flex-direction: row;
     flex-wrap: wrap;
