@@ -10,10 +10,11 @@
   background-position: center;
 }
 
-/* .bottom-hero .hero-img {
-  background: url(../img/bg-bottom-hero-mobile.png) no-repeat;
+.bottom-hero .hero-img {
+  background: url("../img/hero-2-mobile.png") no-repeat;
   background-size: cover;
-} */
+  background-position: center;
+}
 
 .hero h2 {
   padding: 88px 24px;
@@ -37,11 +38,11 @@
     background-position: center;
   }
 
-  /* .bottom-hero .hero-img {
-    height: 400px;
-    background: url(../img/bg-bottom-hero-tablet.png) no-repeat;
+  .bottom-hero .hero-img {
+    background: url("../img/hero-2-tablet.png") no-repeat;
     background-size: cover;
-  } */
+    background-position: center;
+  }
 
   .hero h2 {
     font-size: 32px;
@@ -60,11 +61,11 @@
     background-size: cover;
   }
 
-  /* .bottom-hero .hero-img {
-    height: 600px;
-    background: url(../img/bg-bottom-hero-desktop.png) no-repeat;
+  .bottom-hero .hero-img {
+    background: url("../img/hero-2-desktop.png") no-repeat;
     background-size: cover;
-  } */
+    background-position: center;
+  }
 
   .hero h2 {
     padding: 88px 120px;

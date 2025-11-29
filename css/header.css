@@ -6,6 +6,7 @@
   align-items: flex-start;
   padding: 38px 48px;
   position: relative;
+  color: var(--text-secondary-color);
 }
 
 .logo {
