@@ -22,7 +22,7 @@
 - [🚀 Comece aqui](#started)
   - [Pré-requisitos](#prerequisites)
   - [Clonando](#started)
-  - [Iniciando](#function)
+  - [Mídia](#media)
 - [🤝 Colaboradores](#colab)
   
 </details>
@@ -35,19 +35,19 @@ O projeto demonstra a aplicação de técnicas modernas de desenvolvimento front
 [![project][PROJECT__BADGE]][PROJECT__URL]
 
 
-<h2 id="function">Desktop</h2>
+<h2 id="media">Desktop</h2>
 
 <div align="center"> 
 <img src= "https://github.com/user-attachments/assets/25881941-975b-4d13-b6b0-e882950c2761" width="800px"/>
 </div>
 
-<h2 id="function">Tablet</h2>
+<h2 id="media">Tablet</h2>
 
 <div align="center"> 
 <img src= "https://github.com/user-attachments/assets/20712b3b-b430-4656-b4c1-4c3f8e8f6430" width="800px"/>
 </div>
 
-  <h2 id="function">Mobile</h2>
+  <h2 id="media">Mobile</h2>
 
 <div align="center"> 
 <img src= "https://github.com/user-attachments/assets/cce35223-6326-480d-9f7f-6fae2198790a" width="300px"/>
