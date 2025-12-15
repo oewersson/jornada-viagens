@@ -65,7 +65,6 @@ O projeto demonstra a aplicação de técnicas modernas de desenvolvimento front
 
 <h3 id="prerequisites">Pré-requisitos</h3>
 
-Aqui você lista todos os pré-requisitos necessários para executar seu projeto. Por exemplo:
 
 - [VS CODE][VS_CODE_URL]
 - [Extensão Live Server][EXTENSAO_LIVE-SERVER_URL]
